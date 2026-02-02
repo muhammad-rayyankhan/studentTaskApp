@@ -1,0 +1,94 @@
+/* Main container */
+.app-container {
+  max-width: 600px;
+  margin: 50px auto;
+  padding: 20px 30px;
+  background-color: #29dfc4;
+  border-radius: 12px;
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+/* Subtitle */
+.subtitle {
+  color: #555;
+  margin-bottom: 20px;
+  font-size: 0.95rem;
+}
+
+/* Input section */
+.input-section {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 25px;
+}
+
+.input-section input {
+  flex: 1;
+  padding: 8px 12px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  font-size: 0.95rem;
+}
+
+.input-section button {
+  padding: 8px 15px;
+  border: none;
+  border-radius: 6px;
+  background-color: #007bff;
+  color: white;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.input-section button:hover {
+  background-color: #0056b3;
+}
+
+/* Task list */
+.task-list {
+  list-style-type: decimal;
+  padding-left: 20px;
+}
+
+.task-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 6px 0;
+  border-bottom: 1px solid #eee;
+}
+
+/* Task text */
+.done {
+  text-decoration: line-through;
+  color: #888;
+}
+
+.pending {
+  color: #333;
+}
+
+/* Task action buttons */
+.task-actions button {
+  margin-left: 8px;
+  padding: 4px 8px;
+  border-radius: 4px;
+  border: none;
+  cursor: pointer;
+  font-size: 0.85rem;
+}
+
+.task-actions button:hover {
+  opacity: 0.85;
+}
+
+.task-actions button:first-child {
+  background-color: #28a745;
+  color: white;
+}
+
+.task-actions button.delete-btn {
+  background-color: #dc3545;
+  color: white;
+}
